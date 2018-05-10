@@ -2,7 +2,7 @@ import express from "express";
 import path from "path";
 import bodyParser from "body-parser";
 
-import settings from "models/settings";
+import settings from "multicms.data/settings";
 import router from "./controllers/index";
 
 let app = express();

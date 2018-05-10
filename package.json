@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/serwus79/multicms.web.git"
   },
-  "keywords": ["cms", "multi-domain"],
+  "keywords": [
+    "cms",
+    "multi-domain"
+  ],
   "author": "Krzysztof Chomicz",
   "license": "MIT",
   "bugs": {
@@ -18,9 +21,12 @@
   },
   "homepage": "https://github.com/serwus79/multicms.web#readme",
   "dependencies": {
-    "models": "git+https://github.com/serwus79/multicms.data.git",
+    "body-parser": "^1.18.2",
     "express": "^4.16.3",
-    "body-parser": "^1.18.2"
+    "multicms.data": "git+https://github.com/serwus79/multicms.data.git"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^8.9.5",
+    "typescript": "^2.7.2"
+  }
 }
